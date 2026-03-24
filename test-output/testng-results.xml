@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T21:46:58 IST" name="Suite" finished-at="2026-03-24T21:47:10 IST" duration-ms="11187">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T21:46:58 IST" name="Test" finished-at="2026-03-24T21:47:10 IST" duration-ms="11187">
+      <class name="org.TestNg.AnnotationsDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.TestNg.AnnotationsDemo@6913c1fb]" started-at="2026-03-24T21:46:55 IST" name="setup" finished-at="2026-03-24T21:46:58 IST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Search()[pri:1, instance:org.TestNg.AnnotationsDemo@6913c1fb]" started-at="2026-03-24T21:46:59 IST" name="Search" finished-at="2026-03-24T21:47:06 IST" duration-ms="7578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="addtocart()[pri:2, instance:org.TestNg.AnnotationsDemo@6913c1fb]" started-at="2026-03-24T21:47:06 IST" name="addtocart" finished-at="2026-03-24T21:47:10 IST" depends-on-methods="org.TestNg.AnnotationsDemo.Search" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.TestNg.AnnotationsDemo@6913c1fb]" started-at="2026-03-24T21:47:10 IST" name="teardown" finished-at="2026-03-24T21:47:10 IST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.TestNg.AnnotationsDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
